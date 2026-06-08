@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: dark --default, dark --prefersdark, retro;
+}
+h1{
+    font-size: 80px;
+}
+
+.contener-count{
+    display:flex;
+    flex-direction:row;
+
+}
+
