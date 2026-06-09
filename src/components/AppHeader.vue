@@ -16,6 +16,7 @@
             <li><RouterLink to="TaskList">TaskList</RouterLink></li>
             <li><RouterLink to="DataUser">DataUser</RouterLink></li>
             <li><RouterLink to="Count">Count</RouterLink></li>
+            <li><RouterLink to="EventBinding">EventBinding</RouterLink></li>
           </ul>
         </details>
       </li>

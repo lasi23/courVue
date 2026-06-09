@@ -8,6 +8,7 @@ const router = createRouter({
         { path: '/TaskList', name: 'TaskList', component: () => import('../components/TaskList.vue') },
         { path: '/DataUser', name: 'DataUser', component: () => import('../components/DataUser.vue') },
         { path: '/Count', name: 'Count', component: () => import('../components/Count.vue') },
+        { path: '/EventBinding', name: 'EventBinding', component: () => import('../components/EventBinding.vue') },
     ],
 });
 
