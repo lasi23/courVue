@@ -9,6 +9,6 @@ h1{
 .contener-count{
     display:flex;
     flex-direction:row;
-
+    align-item: space-arround;
 }
 
