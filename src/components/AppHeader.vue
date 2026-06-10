@@ -19,6 +19,8 @@
             <li><RouterLink to="EventBinding">EventBinding</RouterLink></li>
             <li><RouterLink to="Reactivite">Reactivite</RouterLink></li>
             <li><RouterLink to="StyleDynamique">StyleDynamique</RouterLink></li>
+            <li><RouterLink to="Vif">Vif</RouterLink></li>
+            <li><RouterLink to="Vfor">Vfor</RouterLink></li>
           </ul>
         </details>
       </li>

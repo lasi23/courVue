@@ -11,6 +11,9 @@ const router = createRouter({
         { path: '/EventBinding', name: 'EventBinding', component: () => import('../components/EventBinding.vue') },
         { path: '/Reactivite', name: 'Reactivite', component: () => import('../components/Reactivite.vue') },
         { path: '/StyleDynamique', name: 'StyleDynamique', component: () => import('../components/StyleDynamique.vue') },
+        { path: '/Vif', name: 'Vif', component: () => import('../components/Vif.vue') },
+        { path: '/Vfor', name: 'Vfor', component: () => import('../components/Vfor.vue') },
+    
     ],
 });
 
