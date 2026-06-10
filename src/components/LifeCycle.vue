@@ -10,7 +10,7 @@
     </div>
 
     <fieldset class="fieldset bg-base-200 border-base-300 rounded-box w-xs border p-4">
-        <legend class="fieldset-legend">Page details</legend>
+        <legend v-if="meteo" class="fieldset-legend">Meteo de {{ meteo.city_info.name }}</legend>
 
         <div v-if="meteo" class="badge badge-xl"> Température maximale : {{ meteo.fcst_day_0.tmax }}</div>
         <div v-if="meteo" class="badge badge-xl">Température minimal : {{ meteo.fcst_day_0.tmin }}</div>
