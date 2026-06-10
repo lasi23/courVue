@@ -18,6 +18,7 @@
             <li><RouterLink to="Count">Count</RouterLink></li>
             <li><RouterLink to="EventBinding">EventBinding</RouterLink></li>
             <li><RouterLink to="Reactivite">Reactivite</RouterLink></li>
+            <li><RouterLink to="StyleDynamique">StyleDynamique</RouterLink></li>
           </ul>
         </details>
       </li>

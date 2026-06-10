@@ -10,6 +10,7 @@ const router = createRouter({
         { path: '/Count', name: 'Count', component: () => import('../components/Count.vue') },
         { path: '/EventBinding', name: 'EventBinding', component: () => import('../components/EventBinding.vue') },
         { path: '/Reactivite', name: 'Reactivite', component: () => import('../components/Reactivite.vue') },
+        { path: '/StyleDynamique', name: 'StyleDynamique', component: () => import('../components/StyleDynamique.vue') },
     ],
 });
 
