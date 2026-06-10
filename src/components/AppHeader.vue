@@ -3,6 +3,7 @@
   <div class="flex-1">
     <a class="btn btn-ghost text-xl">Navigation</a>
   </div>
+  <input @click="changeTheme()" type="checkbox" checked="checked" class="toggle" />
   <div class="flex-none">
     <ul class="menu menu-horizontal px-1">
       <li><RouterLink to="/">Acceuil</RouterLink></li>
@@ -21,6 +22,7 @@
             <li><RouterLink to="StyleDynamique">StyleDynamique</RouterLink></li>
             <li><RouterLink to="Vif">Vif</RouterLink></li>
             <li><RouterLink to="Vfor">Vfor</RouterLink></li>
+            <li><RouterLink to="LifeCycle">LifeCycle</RouterLink></li>
           </ul>
         </details>
       </li>
@@ -30,9 +32,18 @@
 </template>
 
 <script setup lang='js'>
+import { ref } from 'vue';
+const theme = ref(false);
 
+function changeTheme(){
+  theme.value = !theme.value;
+}
 
 </script>
 
 <style scoped lang="css">
+  .theme{
+  background-color: black;
+}
+
 </style>

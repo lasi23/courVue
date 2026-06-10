@@ -5,6 +5,8 @@ import AppHeader from './components/AppHeader.vue';
 // import HelloWorld from './components/HelloWorld.vue'
 // import Interpolation from './components/Interpolation.vue';
 // import WelconeVue from './components/WelconeVue.vue';
+
+
 </script>
 
 <template>
@@ -20,3 +22,10 @@ import AppHeader from './components/AppHeader.vue';
     <AppFooter />
   </div>
 </template>
+
+
+
+<style scoped lang="css">
+
+
+</style>

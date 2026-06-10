@@ -4,7 +4,6 @@
     <li @click="deleteFilm(index)" v-for="(item, index) in mesFilms" class="text-xl font-bold mb-2">{{ item }}</li>
     
 </template>
-
 <script setup lang='js'>
 import { ref} from 'vue'
 

@@ -13,6 +13,7 @@ const router = createRouter({
         { path: '/StyleDynamique', name: 'StyleDynamique', component: () => import('../components/StyleDynamique.vue') },
         { path: '/Vif', name: 'Vif', component: () => import('../components/Vif.vue') },
         { path: '/Vfor', name: 'Vfor', component: () => import('../components/Vfor.vue') },
+        { path: '/LifeCycle', name: 'LifeCycle', component: () => import('../components/LifeCycle.vue') },
     
     ],
 });
